@@ -1,0 +1,10 @@
+--- a/setup.py
++++ b/setup.py
+@@ -17,6 +17,7 @@
+     def run(self):
+         os.system('rm -vrf ./build ./dist ./*.pyc ./*.tgz ./*.egg-info')
+ 
++    all = run
+ 
+ # allow setup.py to be run from any path
+ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
