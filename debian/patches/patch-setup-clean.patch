@@ -1,3 +1,4 @@
+setup.py: add `all` command to prevent pybuild from exploding when running `dh_auto_clean`
 --- a/setup.py
 +++ b/setup.py
 @@ -17,6 +17,7 @@
